@@ -1,0 +1,13 @@
+div {
+    border-bottom: solid #555 1px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & p {
+        font-size: 16px;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

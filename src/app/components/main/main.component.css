@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+
+td, th {
+    border: solid #DDD 1px;
+    text-align: left;
+    padding: 5px;
+}
+
+.evenBg {
+    background-color: #dddddd;
+}
+
+.oddBg {
+    background-color: #FFF;
+}

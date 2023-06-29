@@ -1,0 +1,17 @@
+<section>
+    <div>
+        <p>Lista de alumnos</p>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Alumno</th>
+                <th>Notas</th>
+            </tr>
+            <tr *ngFor="let alumno of alumnos; let i = index" [ngClass]="i % 2 === 0 ? 'evenBg' : 'oddBg'">
+                <td appHoverBgColor>{{ i }}</td>
+                <td appHoverBgColor>{{ alumno.nombre }}</td>
+                <td appHoverBgColor>{{ alumno.nota | percent }}</td>
+            </tr>
+        </table>
+    </div>
+</section>
